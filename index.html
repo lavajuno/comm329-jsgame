@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Practice sending CW
+        </h1>
+        
+    </header>
+    <main>
+        <hr>
+
+        <div id="prompt"></div>
+
+        <div id="encoding"></div>
+
+        <hr>
+
+        <h2>What is this?</h2>
+
+        <p>
+            <i>It's like a typing test, but for morse code.</i>
+            <br>
+            Each prompt is a mix of randomly generated words, callsigns,
+            Q-codes, signal reports, and the occasional 73. The mix of
+            characters you get here is close to what you'll actually hear on
+            the air.
+        </p>
+
+        <h2>Controls</h2>
+
+        <div id="controls">
+            <div class="key">,</div>
+            <div class="key">.</div>
+        </div>
+
+        <p>
+            Comma: Dah (_)
+            <br>
+            Period: Dit (.)
+        </p>
+
+        <hr>
+    </main>
+
+    <footer class="right">
+        <h3>&copy; 2024 Juno Meifert</h3>
+        COMM329 - Clarkson University
+    </footer>
+
+    <audio src="audio/dit.m4a" preload="auto" style="display: none;"></audio>
+    <audio src="audio/dah.m4a" preload="auto" style="display: none;"></audio>
+
+    <script type="text/javascript" src="js/cw.js"></script>
+</body>
+</html>
